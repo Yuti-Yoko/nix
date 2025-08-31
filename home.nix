@@ -4,8 +4,8 @@
 }: {
 
   imports = [
-    ./home/modules/zed.nix
-    ./home/modules/alacritty.nix
+    ./modules/home/zed.nix
+    # ./home/modules/alacritty.nix
   ];
   # TODO please change the username & home directory to your own
   home.username = "ell";
