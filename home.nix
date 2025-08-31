@@ -46,6 +46,7 @@
     discord
     vscode
     osu-lazer
+    direnv
   ];
   home.stateVersion = "25.05";
 }
