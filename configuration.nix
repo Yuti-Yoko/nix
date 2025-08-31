@@ -134,11 +134,7 @@
 
     # Custom shell aliases
     shellAliases = {
-      ll = "ls -l";
-      la = "ls -la";
-      ".." = "cd ..";
-      "..." = "cd ../..";
-      rebuild-nixos = "sudo nixos-rebuild switch";
+      rebuild-nixos = "sudo nixos-rebuild switch --flake .#ell";
       open = "xdg-open";
     };
 
