@@ -1,8 +1,4 @@
-{
-  pkgs,
-  ...
-}: {
-
+{pkgs, ...}: {
   imports = [
     ./modules/home/zed.nix
     # ./home/modules/alacritty.nix
@@ -46,7 +42,7 @@
     discord
     vscode
     osu-lazer
-    direnv
+    alejandra
   ];
   home.stateVersion = "25.05";
 }

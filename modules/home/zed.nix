@@ -101,6 +101,7 @@
       light = "Gruvbox Light";
       dark = "Gruvbox Dark";
     };
+
     icon_theme = "Material Icon Theme";
 
     tab_size = 2;
@@ -119,7 +120,7 @@
     ui_font_family = "mononoki";
 
     confirm_quit = false;
-    use_autoclose = false;
+    use_autoclose = true;
 
     inlay_hints = {
       enabled = true;
